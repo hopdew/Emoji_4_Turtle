@@ -1,8 +1,8 @@
 import turtle
-turtle.speed(14325)
+turtle.speed(10)
 turtle.bgcolor("grey")
 turtle.color("pink")
-def square():
+def square(star):
     for q in range(4):
         turtle.forward(155)
         turtle.right(90)
